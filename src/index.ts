@@ -1,5 +1,5 @@
 export { QuizId, ItemId, ChoiceId } from './types/id';
-export { QuizMeta, QuizMetaListItem, QuizMetaAdmin } from './types/quiz-meta';
+export { QuizMetaBasic, QuizMeta, QuizMetaListItem, QuizMetaAdmin } from './types/quiz-meta';
 export { QuizItem, QuizItems } from './types/quiz-item';
 export { QuizItemChoice } from './types/quiz-item-choice';
 export { QuizItemAnswer, QuizAnswers } from './types/quiz-item-answer';
