@@ -1,0 +1,41 @@
+{
+  "name": "ngrx-quiz-common",
+  "version": "0.0.1",
+  "description": "Common parts of for ngrx-quiz client and server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json --project tsconfig.json",
+    "watch": "tsc -w",
+    "clear": "rimraf dist",
+    "clean": "rimraf dist",
+    "refresh-modules": "rimraf node_modules && rimraf package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmstss/ngrx-quiz-common.git"
+  },
+  "keywords": [
+    "angular",
+    "nrgx",
+    "typescript",
+    "ngrx-quiz"
+  ],
+  "author": "Viachaslau Tyshkavets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmstss/ngrx-quiz-common/issues"
+  },
+  "homepage": "https://github.com/pmstss/ngrx-quiz-common#readme",
+  "dependencies": {
+    "rimraf": "^2.6.3",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {}
+}
