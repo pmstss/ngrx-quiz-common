@@ -1,6 +1,6 @@
 {
   "name": "ngrx-quiz-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common parts of for ngrx-quiz client and server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

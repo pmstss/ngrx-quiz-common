@@ -1,5 +1,5 @@
 import { QuizId, ItemId } from './id';
-import { QuizItem } from './quiz-item';
+import { QuizItemAdmin } from './quiz-item';
 
 export interface QuizMetaBasic {
     id: QuizId;
@@ -19,7 +19,7 @@ export interface QuizMeta extends QuizMetaBasic {
  */
 
 export interface QuizMetaAdmin extends QuizMetaBasic {
-    items: QuizItem[];
+    items: QuizItemAdmin[];
 }
 
 /*

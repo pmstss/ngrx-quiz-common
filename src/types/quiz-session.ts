@@ -1,5 +1,5 @@
-import { QuizAnswers } from './quiz-item-answer';
+import { QuizItemAnswer } from './quiz-item';
 
 export interface QuizSession {
-    answers: QuizAnswers;
+    answers: { [itemId: string]: QuizItemAnswer };
 }
