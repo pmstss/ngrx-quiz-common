@@ -11,6 +11,7 @@ export interface QuizItemBasic {
 
 export interface QuizItem extends QuizItemBasic {
     choices: QuizItemChoice[];
+    numberOfComments: number;
 }
 
 export interface QuizItemAdmin extends QuizItemBasic {
