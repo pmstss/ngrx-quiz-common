@@ -5,6 +5,6 @@ export { QuizItemBasic, QuizItem, QuizItemAdmin, QuizItemAnswered,
     QuizItemAnswer } from './types/quiz-item';
 export { QuizItemChoice, QuizItemChoiceAdmin, QuizItemChoiceAnswer } from './types/quiz-item-choice';
 export { QuizSession } from './types/quiz-session';
-export { TopScore } from './types/top-score';
+export { TopScore, QuizPosition, QuizScore } from './types/score';
 export { User, UserWithPassword } from './types/user';
 export { Comment } from './types/comment';
