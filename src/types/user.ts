@@ -4,6 +4,7 @@ export interface User {
     email: string;
     admin: boolean;
     social: string;
+    anonymous: boolean;
 }
 
 export interface UserWithPassword extends User {
