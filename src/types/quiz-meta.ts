@@ -17,9 +17,11 @@ export interface QuizMeta extends QuizMetaBasic {
 /*
  * "items" instead of "itemIds" on quiz creation/editing
  */
-
 export interface QuizMetaAdmin extends QuizMetaBasic {
     items: QuizItemAdmin[];
+    published: boolean;
+    public: boolean;
+    userId: string;
 }
 
 /*
