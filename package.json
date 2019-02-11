@@ -1,6 +1,6 @@
 {
   "name": "ngrx-quiz-common",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Common parts of for ngrx-quiz client and server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,7 +35,7 @@
     "rimraf": "^2.6.3",
     "tslint": "^5.12.1",
     "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.3.1"
+    "typescript": "^3.3.3"
   },
   "devDependencies": {}
 }

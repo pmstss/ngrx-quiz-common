@@ -1,7 +1,7 @@
 export interface TopScore {
     name: string;
     score: number;
-    date: Date;
+    createdAt: Date;
 }
 
 export interface QuizPosition {
