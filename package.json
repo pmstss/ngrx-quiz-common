@@ -1,11 +1,11 @@
 {
   "name": "ngrx-quiz-common",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Common parts of for ngrx-quiz client and server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "scripts": {
     "build": "tsc",
@@ -20,10 +20,10 @@
     "url": "git+https://github.com/pmstss/ngrx-quiz-common.git"
   },
   "keywords": [
-    "angular",
-    "nrgx",
-    "typescript",
-    "ngrx-quiz"
+    "quiz",
+    "ngrx-quiz",
+    "ngrx-quiz-api",
+    "typescript"
   ],
   "author": "Viachaslau Tyshkavets",
   "license": "MIT",
