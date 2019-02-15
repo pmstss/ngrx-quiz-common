@@ -22,6 +22,7 @@ export interface QuizMetaAdmin extends QuizMetaBasic {
     published: boolean;
     public: boolean;
     userId: string;
+    order: number;
 }
 
 /*

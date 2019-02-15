@@ -1,6 +1,6 @@
 {
   "name": "ngrx-quiz-common",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Common parts of for ngrx-quiz client and server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
     "typescript"
   ],
   "author": "Viachaslau Tyshkavets",
-  "license": "MIT",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/pmstss/ngrx-quiz-common/issues"
   },
