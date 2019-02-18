@@ -1,6 +1,6 @@
 {
   "name": "ngrx-quiz-common",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Common parts of for ngrx-quiz client and server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
+    "test": "npm run lint",
     "build": "tsc",
     "lint": "tslint -c tslint.json --project tsconfig.json",
     "watch": "tsc -w",
@@ -26,7 +27,7 @@
     "typescript"
   ],
   "author": "Viachaslau Tyshkavets",
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/pmstss/ngrx-quiz-common/issues"
   },
